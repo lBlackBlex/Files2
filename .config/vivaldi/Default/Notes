@@ -1,0 +1,21 @@
+{
+   "checksum": "9920a91c37450300a1641b7f46e2f17c",
+   "children": [ {
+      "children": [  ],
+      "date_added": "13167120969063039",
+      "id": "2",
+      "subject": "Other Notes",
+      "type": "other"
+   }, {
+      "children": [  ],
+      "date_added": "13167120969063040",
+      "id": "3",
+      "subject": "Papelera",
+      "type": "trash"
+   } ],
+   "date_added": "13167120969063038",
+   "id": "1",
+   "subject": "Notes",
+   "type": "folder",
+   "version": 1
+}

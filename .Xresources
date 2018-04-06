@@ -1,0 +1,78 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+Xcursor.theme: capitaine-cursors
+Xcursor.size: 0
+
+!-----------------
+!URXVT CONFIG
+!-----------------
+URxvt.depth:                      32
+URxvt.background:                 rgba:0000/0000/0200/c800
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*background:                 black
+URxvt*foreground:                 grey
+
+URxvt.font:xft:Hack-Regular:pixelsize=12:antialias=true
+
+!------------------
+!False tranparency
+!------------------
+URxvt.transparent: true
+URxvt.shading: 50 
+
+!------------------
+!Links
+!------------------
+URxvt.perl-ext-common:  default,matcher
+URxvt.urlLauncher:      /usr/bin/firefox
+URxvt.matcher.button:   1 
+
+!--------------------------
+!Add some colors for ranger
+!--------------------------
+
+#define t_black		#101010
+#define t_red		#a02929
+#define t_green		#2AA198
+#define t_yellow	#fe9b00
+#define t_blue		#0276FD
+#define t_magenta	#ff1493
+#define t_cyan		#1E90FF
+#define t_white		#a9b7c6
+#define t_brightblack	#888888
+#define t_brightred	#c70202
+#define t_brightgreen	#4cd20c
+#define t_brightyellow	#fadf1b
+#define t_brightblue	#25a0fe
+#define t_brightmagenta	#FF3E96
+#define t_brightcyan	#30f7f7
+#define t_brightwhite	#e4e8ed
+
+*.foreground:   t_white
+*.background:   t_black
+*.cursorColor:  t_white
+
+*.color0:	t_black
+*.color1:	t_red
+*.color2:	t_green
+*.color3:	t_yellow
+*.color4:	t_blue
+*.color5:	t_magenta
+*.color6:	t_cyan
+*.color7:	t_white
+*.color8:	t_brightblack
+*.color9:	t_brightred
+*.color10:	t_brightgreen
+*.color11:	t_brightyellow
+*.color12:	t_brightblue
+*.color13:	t_brightmagenta
+*.color14:	t_brightcyan
+*.color15:	t_brightwhite

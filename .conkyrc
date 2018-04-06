@@ -1,0 +1,92 @@
+-- vim: ts=4 sw=4 noet ai cindent syntax=lua
+--[[
+Conky, a system monitor, based on torsmo
+
+Any original torsmo code is licensed under the BSD license
+
+All code written since the fork of torsmo is licensed under the GPL
+
+Please see COPYING for details
+
+Copyright (c) 2004, Hannu Saransaari and Lauri Hakkarainen
+Copyright (c) 2005-2012 Brenden Matthews, Philip Kovacs, et. al. (see AUTHORS)
+All rights reserved.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+]]
+
+conky.config = {
+    -- Comments start with a double dash
+	background = true,
+    use_xft = true,
+	font = 'Hack-Regular:size=10',
+	xftalpha = 0.8,
+	out_to_console = false,
+	update_interval = 1.0,
+	total_run_times = 0,
+	own_window = true,
+	own_window_class = 'conky',
+	own_window_type = 'override',
+    own_window_transparent = true,
+	own_window_hints = 'undecorated,below,skip_taskbar,skip_pager',
+	double_buffer = true,
+	draw_shades = false,
+	draw_outline = false,
+	draw_borders = false,
+	draw_graph_borders = true,
+	stippled_borders = 5,
+	border_inner_margin = 4,
+	border_width = 1,
+	default_color = 'grey',
+	color2 = "F8F8FF",--white
+	color3 = "FE0073",--hotpink
+	color4 = "A6E22E",--limegreen
+	default_shade_color = 'black',
+	default_outline_color = 'black',
+	alignment = 'top_right',
+	gap_x = 10,
+	gap_y = 47,
+	no_buffers = true,
+	uppercase = false,
+	cpu_avg_samples = 2,
+	net_avg_samples = 2,
+	override_utf8_locale = true,
+	use_spacer = false,
+}
+
+conky.text = [[
+
+${color2}$alignc$sysname $kernel $machine
+${color2}$alignc${exec whoami} @ $nodename
+
+${color}$alignc${color2}${time %A %e %B del %Y}
+
+${color}Time: ${color2}${time %I:%M }${alignr}${color}Uptime: ${color2}$uptime_short
+
+${color}CPU:${color2} ${execi 8 sensors | grep 'Core 0' | cut -c17-23 | sed '/^$/d'} ${cpu cpu1}% ${cpubar cpu1}
+${color}RAM:${color2} $memperc%  $mem/$memmax $membar
+#${color}RAM:${color2} 20% 1,78 GB/7,91 GB $swapbar
+${color}Swap: ${color2}$swapperc% $swap/$swapmax ${swapbar}
+
+${alignc}${color2}File System${color}
+
+${color}/${color2} ${fs_used_perc /}% ${fs_used /}/${fs_size /} ${fs_bar /}
+${color}/home${color2} ${fs_used_perc /home}% ${fs_used /home}/${fs_size /home} ${fs_bar /home}
+
+
+${alignc}${color2}Red${color2} $wireless_essid
+
+${color}IP: ${color2}${execi 3600 curl http://ipecho.net/plain} ${color6}(${addr wlp3s0})${color}
+${color3}$alignr Down: ${color2}${downspeed wlp3s0} \
+${color4}Up: ${color2}${upspeed wlp3s0} \
+]]

@@ -1,0 +1,60 @@
+[2018-04-02 23:13:26.283] [sharedprocess] [info] main {"machineId":"2874dcb24bd3f95072508b49f859125c01294f3f743fdd1b4cb5fd767f080b33"}
+[2018-04-02 23:13:26.300] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:26.720] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:13:29.307] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:29.312] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:29.315] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:29.337] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:29.448] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:13:29.450] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:13:29.456] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:13:32.373] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:42.790] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:46.257] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:46.260] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:46.261] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:46.365] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:13:46.370] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:13:46.580] [sharedprocess] [info] Scanned user extensions: 0
+[2018-04-02 23:13:46.624] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:13:46.827] [sharedprocess] [info] Installing extension: cpptools
+[2018-04-02 23:13:47.627] [sharedprocess] [info] Downloaded extension: cpptools
+[2018-04-02 23:13:48.822] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/ms-vscode.cpptools-0.16.1: ms-vscode.cpptools-0.16.1
+[2018-04-02 23:13:48.907] [sharedprocess] [info] Updated metadata of the extension: ms-vscode.cpptools-0.16.1
+[2018-04-02 23:13:48.907] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools
+[2018-04-02 23:13:49.042] [sharedprocess] [info] Scanned user extensions: 1
+[2018-04-02 23:13:49.097] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:13:55.737] [sharedprocess] [info] Installing extension: code-gnu-global
+[2018-04-02 23:13:56.137] [sharedprocess] [info] Downloaded extension: code-gnu-global
+[2018-04-02 23:13:56.218] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/austin.code-gnu-global-0.2.2: austin.code-gnu-global-0.2.2
+[2018-04-02 23:13:56.276] [sharedprocess] [info] Updated metadata of the extension: austin.code-gnu-global-0.2.2
+[2018-04-02 23:13:56.276] [sharedprocess] [info] Extensions installed successfully: austin.code-gnu-global
+[2018-04-02 23:13:56.403] [sharedprocess] [info] Scanned user extensions: 2
+[2018-04-02 23:13:56.442] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:14:06.192] [sharedprocess] [info] Installing extension: theme-panda
+[2018-04-02 23:14:06.297] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-04-02 23:14:07.025] [sharedprocess] [info] Downloaded extension: theme-panda
+[2018-04-02 23:14:07.176] [sharedprocess] [info] Extracted extension to /home/blackblex/.vscode/extensions/tinkertrain.theme-panda-1.2.0: tinkertrain.theme-panda-1.2.0
+[2018-04-02 23:14:07.445] [sharedprocess] [info] Updated metadata of the extension: tinkertrain.theme-panda-1.2.0
+[2018-04-02 23:14:07.445] [sharedprocess] [info] Extensions installed successfully: tinkertrain.theme-panda
+[2018-04-02 23:14:07.598] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:14:07.656] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:14:11.235] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:14:11.247] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:14:11.335] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:14:11.341] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:15:10.059] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:15:10.060] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:15:10.062] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:15:10.087] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:15:10.090] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:15:10.205] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:15:10.209] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:15:10.213] [sharedprocess] [info] Scanned system extensions: 65
+[2018-04-02 23:15:10.225] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:15:13.490] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:20:13.540] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:20:15.802] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:25:13.570] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:30:13.601] [sharedprocess] [info] Scanned user extensions: 3
+[2018-04-02 23:35:13.627] [sharedprocess] [info] Scanned user extensions: 3

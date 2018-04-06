@@ -1,0 +1,12 @@
+[2018-04-03 23:14:25.351] [exthost1] [info] extension host started
+[2018-04-03 23:14:25.394] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-04-03 23:14:25.394] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/out/extension
+[2018-04-03 23:14:25.860] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-04-03 23:14:25.860] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/out/main
+[2018-04-03 23:14:26.654] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-04-03 23:14:26.654] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2018-04-03 23:14:26.790] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":true,"activationEvent":"*"}
+[2018-04-03 23:14:26.790] [exthost1] [info] ExtensionService#loadCommonJSModule /home/blackblex/.vscode/extensions/ms-vscode.cpptools-0.16.1/out/src/main
+[2018-04-03 23:14:27.571] [exthost1] [info] eager extensions activated
+[2018-04-03 23:14:49.904] [exthost1] [info] ExtensionService#_doActivateExtension austin.code-gnu-global {"startup":false,"activationEvent":"onLanguage:c"}
+[2018-04-03 23:14:49.904] [exthost1] [info] ExtensionService#loadCommonJSModule /home/blackblex/.vscode/extensions/austin.code-gnu-global-0.2.2/out/src/extension
