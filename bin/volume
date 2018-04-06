@@ -1,0 +1,19 @@
+#!/bin/bash
+if [ "$1" == "low" ]
+then
+ amixer set Master 5%- unmute
+ Icon='audio-volume-low-symbolic.svg'
+ Text=$(amixer sget Master | tail -1 | cut -d' ' -f6 | sed 's/\(\[\|\]\)//g')
+elif [ "$1" == "high" ]
+then
+ amixer set Master 5%+ unmute 
+ Icon='audio-volume-high-symbolic.svg'
+ Text=$(amixer sget Master | tail -1 | cut -d' ' -f6 | sed 's/\(\[\|\]\)//g')
+elif [ "$1" == "mute" ]
+then
+ amixer set Master toggle
+ Icon='audio-volume-muted-symbolic.svg'
+ Text='muted'
+fi
+
+notify-send "Volume: $Text" -t 600 -i /usr/share/icons/Arc-OSX-P/status/symbolic/$Icon
